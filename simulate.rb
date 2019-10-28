@@ -62,11 +62,7 @@ if maximum_memory
   values = entry_hash.values
   mega_array = values.pop.dup
   values.each do |v_array|
-    mega_array = mega_array.zip(v_array)
-  end
-
-  if entry_hash.size > 1
-    mega_array = mega_array.map(&:sum)
+    mega_array = mega_array.zip(v_array).map(&:sum)
   end
 
   max_val = 0
