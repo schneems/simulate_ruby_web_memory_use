@@ -3,14 +3,16 @@ GEM
   specs:
     gruff (0.6.0)
       rmagick (>= 2.13.4)
-    rmagick (4.0.0)
+    pkg-config (1.5.5)
+    rmagick (5.3.0)
+      pkg-config (~> 1.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   gruff
-  rmagick (~> 4.0.0)
+  rmagick (~> 5.3.0)
 
 BUNDLED WITH
    2.0.2

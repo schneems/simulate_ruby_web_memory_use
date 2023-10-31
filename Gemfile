@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
 gem 'gruff'
-gem 'rmagick', '~> 4.0.0'
+gem 'rmagick', '~> 5.3.0'
